@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        body {
+           background-color: whitesmoke;
+           color: black;
+           font-family: "Times New Roman", serif;
+           font-size: 14px;}
+        h1 {
+            font-size: 40px;
+            font-family: "Times New Roman", serif;
+            text-align: center;
+            color: black;}
+        h2 {
+            font-size: 16px;
+            font-family: "Times New Roman", serif;
+            text-align: center;
+            color: black;}
+        p {
+            font-size: 14px;
+            font-family: "Times New Roman", serif;
+            text-align: center;
+            color: black;}
+      </style>
+
+    <head>
+        <title>The Daily Compress</title>
+        <meta name="A daily news website" content="The Daily Compress"> 
+    </head>
+    
+    <body>
+        <h1 class="h1">The Daily Compress</h1>
+        <h2 class="time"><span class="time" id="datetime"></span></h2><script class="time">var dt = new Date();
+            document.getElementById("datetime").innerHTML=dt.toLocaleString();</script>
+        
+        <div>
+          <hr class="solid">
+            <p>
+
+                
+                <iframe src="data/article.txt">
+                </iframe>
+            </p>
+        </div>
+    
+    </body>
+
+</html>
