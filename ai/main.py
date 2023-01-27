@@ -9,40 +9,62 @@ TODO: Add footer to article with anchor links to about page and other pages.
 
 # Imports
 import os
+import random
 import time
 import openai
-from topic_maker import getIdea
-from article_writer import write_request
+
+# Load API key
+openai.api_key = "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"
 
 # Variables
 idea = getIdea()
-topicFile = "/workspaces/Online-Workspace/Workspace/Chat-GPT-API-Article-Writer/src/topics.txt"
-newFile = "/workspaces/Online-Workspace/Workspace/Chat-GPT-API-Article-Writer/article.txt"
+topics = [
+    'The 2020 Election',
+    'The decline of the metaverse',
+    'Crypto Scams',
+    'The rise of AI',
+    'Proprietary software and its effects on the world',
+    'Open source software',
+    'Half life 3 and why it will never come out',
+    'The darkside of teslas',
+    'Discord and its porn problem',
+    'Tiktok and misinformation',
+    'Rising mental health issues in children',
+    'Legalizing marijuana',
+    'The fall of object oriented programming',
+    'The disfunctional US education system',
+    'Parenting in the 21st century',
+    'The AI revolution',
+    'Potential dangours of modern living',
+    'Why you should swap to linux',
+    'Reasons to stop using tiktok',
+    'Infulencer rug pulls',
+    'Big pharma and how they treat their employees',
+    'Moist critical and his impact on the gaming industry'
+]
+newFile = "itzCozi/The-Daily-Compress/data/article.txt"
 
 # Functions
 def clear():
     clr = os.system('cls' if os.name in ('nt', 'dos') else 'clear')
     return clr
 
-def readTopics():
-    with open(topicFile, "r") as file:
-        print(file.read())
-        time.sleep(2)
+def getIdea():
+    idea = random.choice(topics)
+    topics.remove(idea)
+    formattedIdea = "Write an article about " + idea
+    return formattedIdea
+
+def write_request(getIdea):
+    # Request AI answer
+    response = openai.Completion.create(model="text-davinci-002", prompt=(getIdea), temperature=0.8, max_tokens=375)
+    with open(newFile, "w") as file:
+        file.write(str(response))
+
+    return response
+
 
 # Main
-start = input("Would you like to start? (y/n): ")
-if start=='y':
-    write_request(getIdea())
-    print("Article written to article.txt file.")
-    time.sleep(2)
-    clear()
-    
-elif start=='n':
-    print("Ok, bye!")
-    time.sleep(2)
-    clear()
-    
-else:
-    print("Invalid input, please try again.")
-    time.sleep(2)
-    clear()
+write_request(getIdea())
+time.sleep(2)
+clear()
