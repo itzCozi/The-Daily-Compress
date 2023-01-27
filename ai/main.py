@@ -3,7 +3,7 @@ TODO: Make a function that will send the article to openAI's text editor and fix
 the new text into a variable and then writes it to article file.
 TODO: Add a way to automate the topic making process.
 TODO: Implement timer function to activate the writer at a certain time
-TODO: Add filter with gpt-3 as a function
+TODO: Add a topic header above the article that contains the topic.
 '''
 
 # Imports
