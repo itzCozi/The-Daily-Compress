@@ -30,3 +30,11 @@ p {
     text-align: center;
     color: black;
 }
+
+p1 {
+    color: whitesmoke;
+    font-size: 14px;
+    font-family: "Times New Roman", serif;
+    text-align: left;
+    color: black;
+}
