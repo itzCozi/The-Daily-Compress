@@ -1,9 +1,8 @@
 '''
-TODO: Test both fliter_response() and article-topic.txt function.
+READ NOTES ON DESK FOR MORE INFO
 TODO: Add a way to automate the topic making process.
 TODO: Implement timer function to activate the writer at a certain time
-TODO: Find a way to print article topic above article from article-topic.txt
-TODO: Test all log functions and add cat pictures to data/static folder
+TODO: Fix date error in logs.log before adding log.html
 TODO: Add log.html page where the logs.log is displayed in a iframe
 '''
 
@@ -15,7 +14,7 @@ import datetime
 import openai
 
 # Load API key
-openai.api_key = "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"
+openai.api_key = "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"
 
 # Variables
 topics = [
@@ -42,14 +41,18 @@ topics = [
     'Big pharma and how they treat their employees',
     'Moist critical and his impact on the gaming industry'
 ]
-idea = getIdea()
-newFile = "itzCozi/The-Daily-Compress/data/article.txt"
+newFile = "data/article.txt"
 
 # Functions
+def readFile():
+  with open("data/article.txt", "w+") as f:
+    for line in f:
+      f.readline()
+
 def clear():
     # Log
     with open("ai/logs.log", "w") as f:
-        f.write("Console cleared - AT: ["+datetime.datetime+"]")
+        f.write("Console cleared - AT: "+str(datetime.date))
 
     clr = os.system('cls' if os.name in ('nt', 'dos') else 'clear')
     return clr
@@ -57,48 +60,38 @@ def clear():
 def getIdea():
     # Log
     with open("ai/logs.log", "w") as f:
-        f.write("Idea fetched - AT: ["+datetime.datetime+"]")
+        f.write("Idea fetched - AT: "+str(datetime.date))
 
-    idea = random.choice(topics)
-    topics.remove(idea)
+    idea = random.choice(topics)       
     formattedIdea = "Write an article about " + idea
     return formattedIdea
 
 def write_request(getIdea):
     # Log
     with open("ai/logs.log", "w") as f:
-        f.write("API reqeuest made - AT: ["+datetime.datetime+"]")
+        f.write("API reqeuest made - AT: "+str(datetime.date))
 
     # Request AI answer
     response = openai.Completion.create(model="text-davinci-002", prompt=(getIdea), temperature=0.8, max_tokens=375)
     with open(newFile, "w") as file:
-        file.write(str(response))
-
+      file.write(str(response))
     return response
 
 def filter_response():
     # Log
     with open("ai/logs.log", "w") as f:
-        f.write("Response filtered - AT: ["+datetime.datetime+"]")
+        f.write("Response filtered - AT: "+str(datetime.date))
 
-    with open("data/article.txt", "w") as f:
-        article = f.read()
-    
+    with open("data/article.txt", "w+") as f:
         proofread = openai.Edit.create(
         model="text-davinci-edit-001",
-        input= article,
-        instruction="Remove any uneccesary words and characters")
+        input= str(readFile()),
+        instruction="Fix grammar, spelling and puncation errors")
     
         f.truncate(0)
-        f.write(proofread)
+        f.write(str(proofread))
 
 # Main
 write_request(getIdea())
-
-# Test this code it should output the topic of the article to .txt file
-with open("data/article-topic.txt", "w") as f:
-    f.write(idea)
-
 time.sleep(2)
-filter_response()
 clear()
