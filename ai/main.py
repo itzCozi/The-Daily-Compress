@@ -1,6 +1,6 @@
 '''
-TODO: Make a function that will send the article to openAI's text editor and fix the text then makes
-the new text into a variable and then writes it to article file.
+TODO: Test both fliter_response() and article-topic.txt function.
+TODO: Add log in ai folder to log events from ai.py to.
 TODO: Add a way to automate the topic making process.
 TODO: Implement timer function to activate the writer at a certain time
 TODO: Add a topic header above the article that contains the topic.
@@ -76,6 +76,11 @@ def filter_response():
 
 # Main
 write_request(getIdea())
+
+# Test this code it should output the topic of the article to .txt file
+with open("data/article-topic.txt", "w") as f:
+    f.write(idea)
+
 time.sleep(2)
 filter_response()
 clear()
