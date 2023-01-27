@@ -3,7 +3,7 @@ TODO: Test both fliter_response() and article-topic.txt function.
 TODO: Add a way to automate the topic making process.
 TODO: Implement timer function to activate the writer at a certain time
 TODO: Find a way to print article topic above article from article-topic.txt
-TODO: Test all log functions
+TODO: Test all log functions and add cat pictures to data/static folder
 TODO: Add log.html page where the logs.log is displayed in a iframe
 '''
 
