@@ -16,6 +16,7 @@ import openai
 # Load API key
 openai.api_key = "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"
 
+
 # Variables
 topics = [
     'The 2020 Election',
@@ -42,6 +43,7 @@ topics = [
     'Moist critical and his impact on the gaming industry'
 ]
 newFile = "data/article.txt"
+
 
 # Functions
 def readFile():
@@ -90,6 +92,7 @@ def filter_response():
     
         f.truncate(0)
         f.write(str(proofread))
+
 
 # Main
 write_request(getIdea())
