@@ -4,12 +4,14 @@ TODO: Add log in ai folder to log events from ai.py to.
 TODO: Add a way to automate the topic making process.
 TODO: Implement timer function to activate the writer at a certain time
 TODO: Add a topic header above the article that contains the topic.
+TODO: Test all log functions
 '''
 
 # Imports
 import os
 import random
 import time
+import datetime
 import openai
 
 # Load API key
@@ -45,16 +47,28 @@ newFile = "itzCozi/The-Daily-Compress/data/article.txt"
 
 # Functions
 def clear():
+    # Log
+    with open("ai/logs.log", "w") as f:
+        f.write("Console cleared - AT: ["+datetime.datetime+"]")
+
     clr = os.system('cls' if os.name in ('nt', 'dos') else 'clear')
     return clr
 
 def getIdea():
+    # Log
+    with open("ai/logs.log", "w") as f:
+        f.write("Idea fetched - AT: ["+datetime.datetime+"]")
+
     idea = random.choice(topics)
     topics.remove(idea)
     formattedIdea = "Write an article about " + idea
     return formattedIdea
 
 def write_request(getIdea):
+    # Log
+    with open("ai/logs.log", "w") as f:
+        f.write("API reqeuest made - AT: ["+datetime.datetime+"]")
+
     # Request AI answer
     response = openai.Completion.create(model="text-davinci-002", prompt=(getIdea), temperature=0.8, max_tokens=375)
     with open(newFile, "w") as file:
@@ -63,6 +77,10 @@ def write_request(getIdea):
     return response
 
 def filter_response():
+    # Log
+    with open("ai/logs.log", "w") as f:
+        f.write("Response filtered - AT: ["+datetime.datetime+"]")
+
     with open("data/article.txt", "w") as f:
         article = f.read()
     
