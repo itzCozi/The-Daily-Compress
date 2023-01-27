@@ -15,7 +15,7 @@ import datetime
 import openai
 
 # Load API key
-openai.api_key = "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"
+openai.api_key = "Not for public use"
 
 
 # Variables
