@@ -1,10 +1,9 @@
 '''
 TODO: Make a function that will send the article to openAI's text editor and fix the text then makes
 the new text into a variable and then writes it to article file.
-TODO: Maybe add a simple parser to completly automate the process.
 TODO: Add a way to automate the topic making process.
-TODO: Add function to clear file then print topics to topics.txt file.
-TODO: Add footer to article with anchor links to about page and other pages.
+TODO: Implement timer function to activate the writer at a certain time
+TODO: Add filter with gpt-3 as a function
 '''
 
 # Imports
@@ -63,8 +62,20 @@ def write_request(getIdea):
 
     return response
 
+def filter_response():
+    with open("data/article.txt", "w") as f:
+        article = f.read()
+    
+        proofread = openai.Edit.create(
+        model="text-davinci-edit-001",
+        input= article,
+        instruction="Remove any uneccesary words and characters")
+    
+        f.truncate(0)
+        f.write(proofread)
 
 # Main
 write_request(getIdea())
 time.sleep(2)
+filter_response()
 clear()
