@@ -1,3 +1,32 @@
 iframe {
     background-color: whitesmoke;
-  }
+}
+
+body {
+    background-color: whitesmoke;
+    color: black;
+    font-family: "Times New Roman", serif;
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: "Times New Roman", serif;
+    text-align: center;
+    color: black;
+}
+
+h2 {
+    font-size: 16px;
+    font-family: "Times New Roman", serif;
+    text-align: center;
+    color: black;
+}
+
+p {
+    color: whitesmoke;
+    font-size: 14px;
+    font-family: "Times New Roman", serif;
+    text-align: center;
+    color: black;
+}
