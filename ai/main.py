@@ -3,6 +3,7 @@ READ NOTES ON DESK FOR MORE INFO
 TODO: Add a way to automate the topic making process.
 TODO: Implement timer function to activate the writer at a certain time
 TODO: Fix date error in logs.log before adding log.html
+TODO: Make README.md really fancy (main Branch)
 TODO: Add log.html page where the logs.log is displayed in a iframe
 '''
 
