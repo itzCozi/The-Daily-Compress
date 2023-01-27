@@ -4,6 +4,7 @@ TODO: Add a way to automate the topic making process.
 TODO: Implement timer function to activate the writer at a certain time
 TODO: Find a way to print article topic above article from article-topic.txt
 TODO: Test all log functions
+TODO: Add log.html page where the logs.log is displayed in a iframe
 '''
 
 # Imports
@@ -17,7 +18,6 @@ import openai
 openai.api_key = "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"
 
 # Variables
-idea = getIdea()
 topics = [
     'The 2020 Election',
     'The decline of the metaverse',
@@ -42,6 +42,7 @@ topics = [
     'Big pharma and how they treat their employees',
     'Moist critical and his impact on the gaming industry'
 ]
+idea = getIdea()
 newFile = "itzCozi/The-Daily-Compress/data/article.txt"
 
 # Functions
