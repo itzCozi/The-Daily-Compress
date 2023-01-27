@@ -1,10 +1,10 @@
 '''
 TODO: Make a function that will send the article to openAI's text editor and fix the text then makes
 the new text into a variable and then writes it to article file.
-TODO: Find a way to remove the topic used after it has been used.
+TODO: Maybe add a simple parser to completly automate the process.
 TODO: Add a way to automate the topic making process.
-TODO: Make a website in a new github repo called "The-Daily-Compress"
 TODO: Add function to clear file then print topics to topics.txt file.
+TODO: Add footer to article with anchor links to about page and other pages.
 '''
 
 # Imports
