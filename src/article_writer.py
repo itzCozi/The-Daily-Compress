@@ -4,7 +4,7 @@ import openai
 from topic_maker import getIdea
 
 # Load API key
-openai.api_key = "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"
+openai.api_key = "Not for public use"
  
 # Variables
 idea = getIdea()
