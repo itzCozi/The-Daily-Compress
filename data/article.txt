@@ -1,15 +1,10 @@
-As the world changes, so do the mental health issues that children and teens face. While some mental health issues 
-like anxiety and depression have always been around, others are on the rise. Here are some of the most common mental health 
-issues that children and teens are facing today. Anxiety is one of the most common mental health issues that 
-children and teens face. According to the Anxiety and Depression Association of America, anxiety disorders are the 
-most common mental illness in the United States, affecting 40 million adults. And children are not immune to anxiety disorders. 
-In fact, one in eight children suffer from an anxiety disorder. There are many different types of anxiety 
-disorders, each with its own set of symptoms. But in general, people with anxiety disorders feel excessive levels 
-of fear, worry, and stress. This can interfere with their daily lives, making it difficult to go to school, work, or even 
-leave the house. Depression is another common mental health issue that children and teens face. According to the 
-National Institute of Mental Health, depression is a common mental disorder that causes people to feel sad, lost, hopeless, and worthless. 
-It is more than just a bout of the blues. Depression is a serious mental illness that can interfere with a persons ability to 
-function in their daily lives. While depression can occur at any age, it is most common in adolescents and young adults. 
-According to the National Institute of Mental Health, about 3 million teens aged 12 to 17 suffer from depression each year. 
-Attention Deficit Hyperactivity Disorder (ADHD) Attention Deficit Hyperactivity Disorder (ADHD) is a mental health disorder 
-that is characterized by problems with focus, hyperactivity, and impulsivity.
+There are many reasons why you should swap to Linux, the most popular open source operating system. Here are just a few: 
+It's free - Unlike Windows and macOS, you won't have to pay a penny for Linux. Not only is the operating system free, but many of 
+the applications are too. It's more secure - Linux is much less vulnerable to viruses and malware than Windows. This is because there 
+are fewer viruses and malware designed for Linux, and because it's easier to secure a Linux system. It's more stable - Linux is designed 
+to be stable and to run smoothly, even on older hardware. It's customizable - You can customize Linux to look and feel however you want. 
+There are hundreds of different "distributions" (flavors) of Linux, each with its own unique look and feel. It's compatible - Linux is 
+compatible with a wide range of hardware, from servers to smartphones. It's easy to use - Linux has come a long way in terms of usability. 
+It's now just as easy to use as Windows or macOS. It's green - Linux is a more efficient way to use your computer resources. This means that 
+you can run Linux on older hardware, or on a "green" computer that uses less electricity. It's fun - Linux is a great platform for learning 
+about computers. And it's also a lot of fun to use.
