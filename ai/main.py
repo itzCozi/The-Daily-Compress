@@ -1,9 +1,8 @@
 '''
 TODO: Test both fliter_response() and article-topic.txt function.
-TODO: Add log in ai folder to log events from ai.py to.
 TODO: Add a way to automate the topic making process.
 TODO: Implement timer function to activate the writer at a certain time
-TODO: Add a topic header above the article that contains the topic.
+TODO: Find a way to print article topic above article from article-topic.txt
 TODO: Test all log functions
 '''
 
