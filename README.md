@@ -3,7 +3,7 @@ An AI driven article writer that writes everyday about a randomly choosen topic 
 
 [TheDailyCompress.com](https://itzcozi.github.io/The-Daily-Compress/)
 
-----------------------------------------------------------------
+--------------------------------------------------
 
 ## Motivation
 I made this website after watching a moist critical video on Chat-GPT writing an article and the result 
@@ -12,7 +12,7 @@ writer with GPT-3, after I was happy with the AI/script I thought to make a webs
 I dont recommend using any of these articles as trustworthy information and all articles should be fact checked 
 before use in any other media.
 
-----------------------------------------------------------------
+--------------------------------------------------
 
 ## Topics
 ```
@@ -43,7 +43,7 @@ Big pharma and how they treat their employees
 Moist critical and his impact on the gaming industry
 ```
 
-----------------------------------------------------------------
+--------------------------------------------------
 
 ### Contact me
 discord: BadDevoleper#4200                                                                                                                                             
