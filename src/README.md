@@ -20,6 +20,7 @@ Standard installation on windows&linux PC's
 8. Run "main.py" and article.txt should be returned
 
 NOTICE: If you run into any problems please make an issue or contact me.
+[Issue How To](.github/HOW-TO:Create_Ticket.md)
 
 ## Contact me
 discord: BadDevoleper#4200                                                                                                                                             
