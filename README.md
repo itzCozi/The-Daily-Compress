@@ -11,7 +11,7 @@ I dont recommend using any of these articles as trustworthy information and all 
 before use in any other media.
 
 ## Topics
-"""
+```
 Web 3 and blockchain tech
 The fall of facebook
 The decline of the metaverse
@@ -37,8 +37,7 @@ Reasons to stop using tiktok
 Infulencer rug pulls
 Big pharma and how they treat their employees
 Moist critical and his impact on the gaming industry
-"""
-
+```
 
 ### Contact me
 discord: BadDevoleper#4200                                                                                                                                             
