@@ -41,6 +41,11 @@ Big pharma and how they treat their employees
 Moist critical and his impact on the gaming industry
 ```
 
+## Development
+This repository and website are both under development and anyone who would like to help is welcome to.  
+Since this AI and website are in development it would be very helpful to report any bugs or problems with the issues  
+tab and create a new issue with the tag low-priority, sooner than later ill answer.
+
 ## Contact me
 discord: BadDevoleper#4200                                                                                                                                             
 Email: Cooperransom08@outlook.com                                                                                                                                      
