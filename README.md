@@ -11,6 +11,8 @@ I dont recommend using any of these articles as trustworthy information and all 
 before use in any other media.
 
 ## Topics
+Please feel free to email me or make pull requests to share topic ideas.
+
 ```
 Web 3 and blockchain tech
 The fall of facebook
