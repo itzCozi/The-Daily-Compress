@@ -44,7 +44,7 @@ Moist critical and his impact on the gaming industry
 ## Development
 This repository and website are both under development and anyone who would like to help is welcome to.  
 Since this AI and website are in development it would be very helpful to report any bugs or problems with the issues  
-tab and create a new issue with the tag low-priority, expect a answer within 24 hours.  
+tab and create a new issue with the tag low-priority, expect an answer within 24 hours.  
 
 [Website source code](https://github.com/itzCozi/The-Daily-Compress/tree/website)  
 [Installation](https://github.com/itzCozi/The-Daily-Compress/blob/main/.github/HOW-TO:Install-Project.md)
