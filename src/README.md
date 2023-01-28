@@ -10,7 +10,7 @@ The article writer's source code.
 ## Installation 
 Standard installation on windows&linux PC's
 
-1. Go to "Releases" tab and click on the most recent post
+1. Go to [Releases](https://github.com/itzCozi/The-Daily-Compress/releases) tab and click on the most recent post
 2. To download the file click "Article-Writer(VERSION).zip"
 3. Drag the newly downloaded .zip file to your desktop
 4. Right click the file and extract it
