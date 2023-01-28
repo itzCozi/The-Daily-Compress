@@ -1,16 +1,16 @@
 ---
-name: Bug report
-about: Ran into some unexpected behaviour?
-title: ''
-labels: 'Priority: medium, type: bug'
-assignees: ''
+name: Bug report  
+about: Ran into some unexpected behaviour?  
+title: ''  
+labels: 'Priority: medium, type: bug'  
+assignees: ''  
 
 ---
 
 **Metadata (please complete the following information)**  
-Version: [e.g. 2.0.2]
-OS: [e.g. Windows 10 / Linux Mint 20.3]
-Shell: [e.g. zsh, run `readlink /bin/sh` to get your shell]
+Version: [e.g. 2.0.2]  
+OS: [e.g. Windows 10 / Linux Mint 20.3]  
+Shell: [e.g. zsh, run `readlink /bin/sh` to get your shell]  
 
 **Describe the bug**  
 Article says something offensive...
