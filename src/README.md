@@ -19,7 +19,7 @@ Standard installation on windows&linux PC's
 7. Reconfigure file paths to folder
 8. Run "main.py" and article.txt should be returned
 
-NOTICE: If you run into any problems please make an issue or contact me.
+NOTICE: If you run into any problems please make an issue or contact me.  
 [Issue How To](https://github.com/itzCozi/The-Daily-Compress/blob/86cf9c86ffd66aeab9e4626b193a19138e7d2d6c/.github/HOW-TO:Create_Ticket.md)
 
 ## Contact me
