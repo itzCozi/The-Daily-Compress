@@ -20,7 +20,8 @@ openai.api_key = "Not for public use"
 
 # Variables
 topics = [
-    'The 2020 Election',
+    'Web 3 and blockchain technology',
+    'The fall of facebook',
     'The decline of the metaverse',
     'Crypto Scams',
     'The rise of AI',
@@ -29,19 +30,22 @@ topics = [
     'Half life 3 and why it will never come out',
     'The darkside of teslas',
     'Discord and its porn problem',
+    'How VSCode effected the developers',
     'Tiktok and misinformation',
+    'How music effects children at a young age',
     'Rising mental health issues in children',
     'Legalizing marijuana',
     'The fall of object oriented programming',
     'The disfunctional US education system',
     'Parenting in the 21st century',
     'The AI revolution',
+    'Half-Life and how its affected the gaming industry',
     'Potential dangours of modern living',
     'Why you should swap to linux',
     'Reasons to stop using tiktok',
     'Infulencer rug pulls',
     'Big pharma and how they treat their employees',
-    'Moist critical and his impact on the gaming industry'
+    'Moist critical and his impact on the gaming industry',
 ]
 newFile = "data/article.txt"
 
