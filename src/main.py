@@ -1,11 +1,11 @@
 '''
-TODO: Make a function that will send the article to openAI's text editor and fix the text then makes
-the new text into a variable and then writes it to article file.
-TODO: Replace API key.
-TODO: Find a way to remove the topic used after it has been used.
+READ NOTES ON DESK FOR MORE INFO
 TODO: Add a way to automate the topic making process.
-TODO: Make a website in a new github repo called "The-Daily-Compress"
-TODO: Add function to clear file then print topics to topics.txt file.
+TODO: Implement timer function to activate the writer at a certain time
+TODO: Fix date error in logs.log before adding log.html
+TODO: Make README.md really fancy (main Branch)
+TODO: Make a graph on front README demonstrating refresh process [example](https://github.com/ZeroMemoryEx/U-Boat/edit/master/README.md)
+TODO: Add log.html page where the logs.log is displayed in a iframe
 '''
 
 # Imports
