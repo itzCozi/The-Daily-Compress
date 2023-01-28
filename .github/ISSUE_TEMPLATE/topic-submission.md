@@ -1,6 +1,7 @@
 ---
 name: Bug report
 title: ''
+about: ''
 labels: 'priority 2: medium, type: bug'
 ---
 
