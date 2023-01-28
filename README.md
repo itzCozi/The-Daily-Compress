@@ -1,7 +1,6 @@
 # The-Daily-Compress
 An AI driven article writer that writes everyday about a randomly choosen topic and is posted to [thedailycompress.com](https://itzcozi.github.io/The-Daily-Compress/)
 
-[TheDailyCompress.com](https://itzcozi.github.io/The-Daily-Compress/)
 
 ## Motivation
 I made this website after watching a moist critical video on Chat-GPT writing an article and the result  
