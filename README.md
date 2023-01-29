@@ -16,6 +16,10 @@ Please feel free to email me or make pull requests to share topic ideas.
 ```
 Web 3 and blockchain tech
 The fall of facebook
+Games realeasing in unfinished states
+Bill gates and his relationship with jeffery epstein
+Ponzi scheme cryptocurrency
+What happened to vr
 The decline of the metaverse
 Crypto Scams
 The rise of AI
