@@ -11,7 +11,7 @@ I dont recommend using any of these articles as trustworthy information and all 
 before use in any other media.
 
 ## Topics
-Please feel free to email me or make pull requests to share topic ideas.
+Please feel free to email me or make pull requests to share topic ideas, Ive listed some topics below.
 
 ```
 Web 3 and blockchain technology
@@ -49,7 +49,6 @@ Reasons to stop using tiktok
 Infulencer rug pulls
 Moist critical and his impact on the gaming industry
 ```
-   **AND MORE**
 
 ## Development
 This repository and website are both under development and anyone who would like to help is welcome to.  
