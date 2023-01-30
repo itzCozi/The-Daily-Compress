@@ -28,12 +28,15 @@ Open source software
 Half life 3 and why it will never come out
 The darkside of teslas
 Discord and its porn problem
+Big O Complexity rendered unnecessary
 How VSCode effected the developers
 Tiktok and misinformation
 How music effects children at a young age
 Rising mental health issues in children
 Legalizing marijuana
+Computer modern memory
 The fall of object oriented programming
+AI moderation
 The disfunctional US education system
 Parenting in the 21st century
 The AI revolution
