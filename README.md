@@ -14,33 +14,36 @@ before use in any other media.
 Please feel free to email me or make pull requests to share topic ideas.
 
 ```
-Web 3 and blockchain tech
+Web 3 and blockchain technology
 The fall of facebook
 Games realeasing in unfinished states
+Computer modern memory
+Big O Complexity rendered unnecessary
+AI moderation
 Bill gates and his relationship with jeffery epstein
 Ponzi scheme cryptocurrency
 What happened to vr
 The decline of the metaverse
 Crypto Scams
 The rise of AI
+How animales are affected by global warming
 Proprietary software and its effects on the world
 Open source software
 Half life 3 and why it will never come out
 The darkside of teslas
 Discord and its porn problem
-Big O Complexity rendered unnecessary
 How VSCode effected the developers
 Tiktok and misinformation
 How music effects children at a young age
 Rising mental health issues in children
 Legalizing marijuana
-Computer modern memory
 The fall of object oriented programming
-AI moderation
 The disfunctional US education system
 Parenting in the 21st century
 The AI revolution
+Half-Life and how its affected the gaming industry
 Potential dangours of modern living
+Lowering green gas emission
 Why you should swap to linux
 Reasons to stop using tiktok
 Infulencer rug pulls
