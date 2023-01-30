@@ -58,7 +58,7 @@ newFile = "data/article.txt"
 
 # Functions
 def readFile():
-  with open("data/article.md", "w+") as f:
+  with open("data/article.txt", "w+") as f:
     for line in f:
       f.readline()
 
