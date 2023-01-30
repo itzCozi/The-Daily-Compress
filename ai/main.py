@@ -36,7 +36,7 @@ topicFile.close()
 def clear():
     # Log
     with open("ai/logs.log", "w") as f:
-        f.write("Console cleared - AT: "+str(date.today))
+        f.write("Console cleared - AT: "+str(date.strftime))
 
     clr = os.system('cls' if os.name in ('nt', 'dos') else 'clear')
     return clr
@@ -44,7 +44,7 @@ def clear():
 def getIdea():
     # Log
     with open("ai/logs.log", "w") as f:
-        f.write("Idea fetched - AT: "+str(date.today))
+        f.write("Idea fetched - AT: "+str(date.strftime))
 
     idea = random.choice(data_into_list)
     formattedIdea = "Write an article about " + idea
@@ -60,7 +60,7 @@ def readFile():
 def write_request(getIdea):
     # Log
     with open("ai/logs.log", "w") as f:
-        f.write("API reqeuest made - AT: "+str(date.today))
+        f.write("API reqeuest made - AT: "+str(date.strftime))
 
     # Request AI answer
     response = openai.Completion.create(model="text-davinci-002", prompt=(getIdea), temperature=0.8, max_tokens=375)
@@ -71,7 +71,7 @@ def write_request(getIdea):
 def filter_response():
     # Log
     with open("ai/logs.log", "w") as f:
-        f.write("Response filtered - AT: "+str(date.today))
+        f.write("Response filtered - AT: "+str(date.strftime))
 
     with open("data/article.txt", "w+") as f:
         proofread = openai.Edit.create(
