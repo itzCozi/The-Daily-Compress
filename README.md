@@ -47,8 +47,8 @@ Lowering green gas emission
 Why you should swap to linux
 Reasons to stop using tiktok
 Infulencer rug pulls
-Big pharma and how they treat their employees
 Moist critical and his impact on the gaming industry
+**AND MORE**
 ```
 
 ## Development
