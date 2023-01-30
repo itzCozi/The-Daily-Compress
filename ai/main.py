@@ -16,7 +16,7 @@ import datetime
 from colorama import Fore, Style
 
 # Load API key
-openai.api_key = "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"
+openai.api_key = "PRIVATE KEY"
 
 
 # Variables
