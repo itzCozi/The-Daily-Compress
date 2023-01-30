@@ -16,7 +16,7 @@ import datetime
 from colorama import Fore, Style
 
 # Load API key
-openai.api_key = "PRIVATE KEY"
+openai.api_key = "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"
 
 
 # Variables
@@ -54,6 +54,19 @@ def getIdea():
     idea = random.choice(data_into_list)
     formattedIdea = "Write an article about " + idea
     clear() 
+
+    # Read the contents of the file into a list
+    with open("data/topics.txt", "r") as f:
+      DELtopics = f.read().splitlines()
+
+    # Remove the topic
+    DELtopics.remove(idea)
+
+    # Write the updated list back to the file
+    with open("data/topics.txt", "w") as f:
+      f.write('\n'.join(DELtopics))
+      print("TOPIC DELETED")
+  
     print("Prompt: "+formattedIdea)
     print("Topic: "+idea)
     return formattedIdea
