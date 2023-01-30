@@ -3,70 +3,38 @@ READ NOTES ON DESK FOR MORE INFO
 TODO: Add a way to automate the topic making process.
 TODO: Fix date error in logs.log before adding log.html
 TODO: Make a graph on front README demonstrating refresh process [example](https://github.com/ZeroMemoryEx/U-Boat/edit/master/README.md)
-TODO: Add log.html page where the logs.log is displayed in a 
-TODO: Transfer the topics list to a file and on run turn the file into a list 
+TODO: Add log.html page where the logs.log is displayed in a iframe
 '''
 
 # Imports
 import os
 import random
 import time
-import datetime
 import openai
+from datetime import date
 
 # Load API key
-openai.api_key = "Not for public use"
+openai.api_key = "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"
 
 
 # Variables
-topics = [
-    'Web 3 and blockchain technology',
-    'The fall of facebook',
-    'Games realeasing in unfinished states',
-    'Computer modern memory',
-    'Big O Complexity rendered unnecessary',
-    'AI moderation',
-    'Bill gates and his relationship with jeffery epstein',
-    'Ponzi scheme cryptocurrency',
-    'What happened to vr',
-    'The decline of the metaverse',
-    'Crypto Scams',
-    'The rise of AI',
-    'Proprietary software and its effects on the world',
-    'Open source software',
-    'Half life 3 and why it will never come out',
-    'The darkside of teslas',
-    'Discord and its porn problem',
-    'How VSCode effected the developers',
-    'Tiktok and misinformation',
-    'How music effects children at a young age',
-    'Rising mental health issues in children',
-    'Legalizing marijuana',
-    'The fall of object oriented programming',
-    'The disfunctional US education system',
-    'Parenting in the 21st century',
-    'The AI revolution',
-    'Half-Life and how its affected the gaming industry',
-    'Potential dangours of modern living',
-    'Why you should swap to linux',
-    'Reasons to stop using tiktok',
-    'Infulencer rug pulls',
-    'Big pharma and how they treat their employees',
-    'Moist critical and his impact on the gaming industry',
-]
 newFile = "data/article.txt"
+
+# Load topics into 'data' list
+topicFile = open("data/topics.txt", "r")
+data = topicFile.read()
+
+# when newline ('\n') is seen.
+data_into_list = data.split("\n")
+print(data_into_list)
+topicFile.close()
 
 
 # Functions
-def readFile():
-  with open("data/article.txt", "w+") as f:
-    for line in f:
-      f.readline()
-
 def clear():
     # Log
     with open("ai/logs.log", "w") as f:
-        f.write("Console cleared - AT: "+str(datetime.date))
+        f.write("Console cleared - AT: "+str(date.today))
 
     clr = os.system('cls' if os.name in ('nt', 'dos') else 'clear')
     return clr
@@ -74,16 +42,23 @@ def clear():
 def getIdea():
     # Log
     with open("ai/logs.log", "w") as f:
-        f.write("Idea fetched - AT: "+str(datetime.date))
+        f.write("Idea fetched - AT: "+str(date.today))
 
-    idea = random.choice(topics)       
+    idea = random.choice(data_into_list)
     formattedIdea = "Write an article about " + idea
+    clear()
+    print(formattedIdea)
     return formattedIdea
+
+def readFile():
+  with open("data/article.txt", "w+") as f:
+    for line in f:
+      f.readline()
 
 def write_request(getIdea):
     # Log
     with open("ai/logs.log", "w") as f:
-        f.write("API reqeuest made - AT: "+str(datetime.date))
+        f.write("API reqeuest made - AT: "+str(date.today))
 
     # Request AI answer
     response = openai.Completion.create(model="text-davinci-002", prompt=(getIdea), temperature=0.8, max_tokens=375)
@@ -94,7 +69,7 @@ def write_request(getIdea):
 def filter_response():
     # Log
     with open("ai/logs.log", "w") as f:
-        f.write("Response filtered - AT: "+str(datetime.date))
+        f.write("Response filtered - AT: "+str(date.today))
 
     with open("data/article.txt", "w+") as f:
         proofread = openai.Edit.create(
