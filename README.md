@@ -48,8 +48,8 @@ Why you should swap to linux
 Reasons to stop using tiktok
 Infulencer rug pulls
 Moist critical and his impact on the gaming industry
-**AND MORE**
 ```
+** AND MORE **
 
 ## Development
 This repository and website are both under development and anyone who would like to help is welcome to.  
