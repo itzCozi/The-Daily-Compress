@@ -14,7 +14,7 @@ import openai
 from datetime import date
 
 # Load API key
-openai.api_key = "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"
+openai.api_key = "NOOOOO NOT ANOTHER API LEAK"
 
 
 # Variables
