@@ -2,7 +2,7 @@
 '''
 READ NOTES ON DESK FOR MORE INFO
 TODO: Add a way to automate the topic making process.
-TODO: Fix date error in logs.log before adding log.html (https://www.programiz.com/python-programming/datetime/current-datetime)
+TODO: Check if date logging error fixed if not fix it (https://www.programiz.com/python-programming/datetime/current-datetime)
 TODO: Make a graph on front README demonstrating refresh process (https://github.com/ZeroMemoryEx/U-Boat/edit/master/README.md)
 TODO: Add log.html page where the logs.log is displayed in a iframe
 TODO: Compare to replit code and test this code
