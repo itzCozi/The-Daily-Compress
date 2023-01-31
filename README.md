@@ -6,7 +6,7 @@ An AI driven article writer that writes everyday about a randomly chosen topic a
 ## Motivation
 I made this website after watching a moist critical video on Chat-GPT writing an article and the result  
 was very cool and after a couple of weeks waiting on Chat-GPT to release on openAI-API I decided to build the  
-writer with GPT-3, after I was happy with the AI/script I thought to make a website to post all of the articles to. 
+writer with GPT-3, after I was happy with the AI/script I thought to make a website to post all of the articles to.  
 I dont recommend using any of these articles as trustworthy information and all articles should be fact  
 checked before use in any other media.
 
@@ -60,7 +60,7 @@ Tab and create a new issue with the tag low-priority; expect an answer within 24
 [Installation](https://github.com/itzCozi/The-Daily-Compress/blob/main/.github/HOW-TO:Install-Project.md)
 
 ## Contact me
-discord: BadDevoleper#4200                                                                                                                                             
-Email: Cooperransom08@outlook.com                                                                                                                                      
+discord: BadDevoleper#4200                                                                                                 
+Email: Cooperransom08@outlook.com                                                                                          
 [Replit](https://replit.com/@cozi08) | 
 [Twitter](https://twitter.com/ransom_cooper)
