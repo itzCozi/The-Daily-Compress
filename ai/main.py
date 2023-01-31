@@ -104,7 +104,7 @@ def filter_response():
         proofread = openai.Edit.create(
         model="text-davinci-edit-001",
         input= str(readFile()),
-        instruction="Fix grammar, spelling and puncation errors")
+        instruction="Remove unnecessary characters")
     
         f.truncate(0)
         f.write(str(proofread))
