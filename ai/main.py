@@ -35,11 +35,6 @@ topicFile.close()
 # Functions
 def clear():
     # Log
-    with open("ai/logs.log", "w") as f:
-        f.write("Console cleared - AT: "+str(date.strftime))
-    if debug:
-        print("Console cleared - AT: "+str(date.strftime))
-
     with open("ai/logs.log", "a") as f:
       f.write("Console cleared - AT: "+now)
     if debug==True:
@@ -50,12 +45,8 @@ def clear():
 
 def getIdea():
     # Log
-    with open("ai/logs.log", "w") as f:
-        f.write("Idea fetched - AT: "+str(date.strftime))
-    if debug:
-        print()
     with open("ai/logs.log", "a") as f:
-        f.write("Idea fetched - AT: "+now)
+      f.write("Idea fetched - AT: "+now)
     if debug==True:
       print(Fore.BLUE+"Idea fetched - AT: "+now+Style.RESET_ALL)
 
@@ -111,13 +102,13 @@ def filter_response():
       print(Fore.BLUE+"Response filtered - AT: "+now+Style.RESET_ALL)
 
     with open("data/article.txt", "w+") as f:
-        proofread = openai.Edit.create(
-        model="text-davinci-edit-001",
-        input= str(readFile()),
-        instruction="Remove unnecessary characters")
+      proofread = openai.Edit.create(
+      model="text-davinci-edit-001",
+      input= str(readFile()),
+      instruction="Remove unnecessary characters")
     
-        f.truncate(0)
-        f.write(str(proofread))
+      f.truncate(0)
+      f.write(str(proofread))
 
 
 # Main
