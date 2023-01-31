@@ -19,8 +19,8 @@ openai.api_key = "PRIVATE KEY"
 
 
 # Variables
-newFile = "data/article.txt"
 debug = True
+newFile = "data/article.txt"
 now = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S") + "\n\n"
 
 # Load topics into 'data' list
@@ -35,6 +35,11 @@ topicFile.close()
 # Functions
 def clear():
     # Log
+    with open("ai/logs.log", "w") as f:
+        f.write("Console cleared - AT: "+str(date.strftime))
+    if debug:
+        print("Console cleared - AT: "+str(date.strftime))
+
     with open("ai/logs.log", "a") as f:
       f.write("Console cleared - AT: "+now)
     if debug==True:
@@ -45,6 +50,10 @@ def clear():
 
 def getIdea():
     # Log
+    with open("ai/logs.log", "w") as f:
+        f.write("Idea fetched - AT: "+str(date.strftime))
+    if debug:
+        print()
     with open("ai/logs.log", "a") as f:
         f.write("Idea fetched - AT: "+now)
     if debug==True:
