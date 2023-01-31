@@ -35,14 +35,12 @@ a:link {
     text-decoration: none;
     font-size: 14px;
     font-family: "Times New Roman", serif;
-    text-align: left;
     color: black;
 }
 a:hover {
     text-decoration: underline;
     font-size: 14px;
     font-family: "Times New Roman", serif;
-    text-align: left;
     color: black;
 }
 
