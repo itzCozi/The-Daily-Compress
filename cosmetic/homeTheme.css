@@ -23,6 +23,13 @@ h2 {
     color: black;
 }
 
+h3 {
+    font-size: 18px;
+    font-family: "Times New Roman", serif;
+    text-align: center;
+    color: black;
+}
+
 p {
     color: whitesmoke;
     font-size: 14px;
