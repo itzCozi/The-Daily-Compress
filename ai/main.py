@@ -63,18 +63,19 @@ def getIdea():
     formattedIdea = "Write an article about " + idea
     clear() 
 
-    # Read the contents of the file into a list
     with open("data/topics.txt", "r") as f:
       DELtopics = f.read().splitlines()
-
-    # Remove the topic
     DELtopics.remove(idea)
 
-    # Write the updated list back to the file
     with open("data/topics.txt", "w") as f:
       f.write('\n'.join(DELtopics))
-      print("TOPIC DELETED")
-  
+      
+    with open("ai/logs.log", "a") as f:
+        f.write("Topic Deleted - AT: "+now)
+        
+    if debug==True:
+        print(Fore.RED+"TOPIC DELETED"+Style.RESET_ALL)
+     
     print("Prompt: "+formattedIdea)
     print("Topic: "+idea)
     return formattedIdea
