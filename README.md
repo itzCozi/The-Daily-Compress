@@ -6,8 +6,8 @@ An AI driven article writer that writes everyday about a randomly chosen topic a
 ## Motivation
 I made this website after watching a moist critical video on Chat-GPT writing an article and the result  
 was very cool and after a couple of weeks waiting on Chat-GPT to release on openAI-API I decided to build the  
-writer with GPT-3, after I was happy with the AI/script I thought to make a website to post all of the articles to.  
-I dont recommend using any of these articles as trustworthy information and all articles should be fact checked  
+writer with GPT-3, after I was happy with the AI/script I thought to make a website to post all of the articles to. I dont  
+recommend using any of these articles as trustworthy information and all articles should be fact checked  
 before use in any other media.
 
 ## Topics
