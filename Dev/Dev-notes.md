@@ -17,6 +17,7 @@ Record bugs and issues to this section
 
 1. Bug: This bug outputs users text line with extra newlines | (ln. 84-129) [sqaushed]
 2. Bug: This bug clears the database when a user types | (ln. 101-106) [sqaushed] 
+3. Bug: Check why link element in .css files does not center the link | (cosmetics)
 
 ### Todo
 A todo list that spans the whole project
