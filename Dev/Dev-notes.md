@@ -21,10 +21,11 @@ Record bugs and issues to this section
 ### Todo
 A todo list that spans the whole project
 
-* Fix date error in logs.log before adding log.html
-* TODO: Check if date logging error fixed if not fix it (https://www.programiz.com/python-programming/datetime/current-datetime)
+* Finish logs.html and link the file with iframe
 * Add a way to automate the topic making process.
-* Add log.html page where the logs.log is displayed in a iframe
+* Add a feature to detect empty topic file and fill it with topic generator
+* Add more sections in readme.md like: AI and Code Rules
+* Add sources.md with links I used
 
 --------------------------------------------------
 ### Helpful Links
