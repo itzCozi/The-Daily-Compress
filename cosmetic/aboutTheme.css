@@ -23,19 +23,36 @@ hs {
     color: black;
 }
 
-pl {
+pl:link {
+    text-decoration: none;
     font-size: 14px;
-    font-family: "Times New Roman", serif;
+    font-family: "Calibri", serif;
+    text-align: center;
+    color: black;
+}
+pl:hover {
+    text-decoration: underline;
+    font-size: 14px;
+    font-family: "Calibri", serif;
     text-align: center;
     color: black;
 }
 
-al {
+a:link {
+    text-decoration: none;
     font-size: 14px;
-    font-family: "Times New Roman", serif;
+    font-family: "Calibri", serif;
     text-align: left;
     color: black;
 }
+a:hover {
+    text-decoration: underline;
+    font-size: 14px;
+    font-family: "Calibri", serif;
+    text-align: left;
+    color: black;
+}
+
 
 p {
     font-size: 14px;
