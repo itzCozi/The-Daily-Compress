@@ -2,7 +2,6 @@
 '''
 READ NOTES ON DESK FOR MORE INFO
 TODO: Add a way to automate the topic making process.
-TODO: Now the topic prints when ran i can print the topic on top of the article
 TODO: Make a graph on front README demonstrating refresh process (https://github.com/ZeroMemoryEx/U-Boat/edit/master/README.md)
 TODO: Add log.html page where the logs.log is displayed in a iframe
 '''
