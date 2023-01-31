@@ -23,6 +23,20 @@ h2 {
     color: black;
 }
 
+link {
+    font-size: 14px;
+    font-family: "Times New Roman", serif;
+    text-align: center;
+    color: black;
+}
+
+altLink {
+    font-size: 14px;
+    font-family: "Times New Roman", serif;
+    text-align: left;
+    color: black;
+}
+
 h3 {
     font-size: 18px;
     font-family: "Times New Roman", serif;
