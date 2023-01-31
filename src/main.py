@@ -1,10 +1,9 @@
+# Article-Writer Version.web-BETA-1.0.3
 '''
 READ NOTES ON DESK FOR MORE INFO
 TODO: Add a way to automate the topic making process.
-TODO: Implement timer function to activate the writer at a certain time
-TODO: Fix date error in logs.log before adding log.html
-TODO: Make README.md really fancy (main Branch)
-TODO: Make a graph on front README demonstrating refresh process [example](https://github.com/ZeroMemoryEx/U-Boat/edit/master/README.md)
+TODO: Now the topic prints when ran i can print the topic on top of the article
+TODO: Make a graph on front README demonstrating refresh process (https://github.com/ZeroMemoryEx/U-Boat/edit/master/README.md)
 TODO: Add log.html page where the logs.log is displayed in a iframe
 '''
 
@@ -12,83 +11,82 @@ TODO: Add log.html page where the logs.log is displayed in a iframe
 import os
 import random
 import time
-import datetime
 import openai
+import datetime
+from colorama import Fore, Style
 
 # Load API key
-openai.api_key = "Not for public use"
+openai.api_key = "API_KEY"
 
 
 # Variables
-topics = [
-    'Web 3 and blockchain technology',
-    'The fall of facebook',
-    'The decline of the metaverse',
-    'Crypto Scams',
-    'The rise of AI',
-    'Proprietary software and its effects on the world',
-    'Open source software',
-    'Half life 3 and why it will never come out',
-    'The darkside of teslas',
-    'Discord and its porn problem',
-    'How VSCode effected the developers',
-    'Tiktok and misinformation',
-    'How music effects children at a young age',
-    'Rising mental health issues in children',
-    'Legalizing marijuana',
-    'The fall of object oriented programming',
-    'The disfunctional US education system',
-    'Parenting in the 21st century',
-    'The AI revolution',
-    'Half-Life and how its affected the gaming industry',
-    'Potential dangours of modern living',
-    'Why you should swap to linux',
-    'Reasons to stop using tiktok',
-    'Infulencer rug pulls',
-    'Big pharma and how they treat their employees',
-    'Moist critical and his impact on the gaming industry',
-]
 newFile = "data/article.txt"
+debug = True
+now = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S") + "\n\n"
+
+# Load topics into 'data' list
+topicFile = open("data/topics.txt", "r")
+data = topicFile.read()
+
+data_into_list = data.split("\n")
+print(data_into_list)
+topicFile.close()
 
 
 # Functions
-def readFile():
-  with open("data/article.txt", "w+") as f:
-    for line in f:
-      f.readline()
-
 def clear():
     # Log
-    with open("ai/logs.log", "w") as f:
-        f.write("Console cleared - AT: "+str(datetime.date))
-
+    with open("ai/logs.log", "a") as f:
+      f.write("Console cleared - AT: "+now)
+    if debug==True:
+      print(Fore.BLUE+"Console cleared - AT: "+now+Style.RESET_ALL)
+  
     clr = os.system('cls' if os.name in ('nt', 'dos') else 'clear')
     return clr
 
 def getIdea():
     # Log
-    with open("ai/logs.log", "w") as f:
-        f.write("Idea fetched - AT: "+str(datetime.date))
+    with open("ai/logs.log", "a") as f:
+        f.write("Idea fetched - AT: "+now)
+    if debug==True:
+      print(Fore.BLUE+"Idea fetched - AT: "+now+Style.RESET_ALL)
 
-    idea = random.choice(topics)       
+    idea = random.choice(data_into_list)
     formattedIdea = "Write an article about " + idea
+    clear()
+    print("Prompt: "+formattedIdea)
+    print("Topic: "+idea)
     return formattedIdea
+
+def readFile():
+  with open("data/article.txt", "w+") as f:
+    for line in f:
+      f.readline()
 
 def write_request(getIdea):
     # Log
-    with open("ai/logs.log", "w") as f:
-        f.write("API reqeuest made - AT: "+str(datetime.date))
+    with open("ai/logs.log", "a") as f:
+      f.write("API reqeuest made - AT: "+now)
+    if debug==True:
+      print(Fore.BLUE+"API reqeuest made - AT: "+now+Style.RESET_ALL)
 
     # Request AI answer
-    response = openai.Completion.create(model="text-davinci-002", prompt=(getIdea), temperature=0.8, max_tokens=375)
+    response = openai.Completion.create(
+      model="text-davinci-002", 
+      prompt=(getIdea), 
+      temperature=0.8, 
+      max_tokens=400)
+    
     with open(newFile, "w") as file:
       file.write(str(response))
     return response
 
 def filter_response():
     # Log
-    with open("ai/logs.log", "w") as f:
-        f.write("Response filtered - AT: "+str(datetime.date))
+    with open("ai/logs.log", "a") as f:
+      f.write("Response filtered - AT: "+now)
+    if debug==True:
+      print(Fore.BLUE+"Response filtered - AT: "+now+Style.RESET_ALL)
 
     with open("data/article.txt", "w+") as f:
         proofread = openai.Edit.create(
