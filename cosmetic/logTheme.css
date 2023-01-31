@@ -19,14 +19,14 @@ h1 {
 pl {
     text-decoration: none;
     font-size: 14px;
-    font-family: "Calibri", serif;
+    font-family: "Times New Roman", serif;
     text-align: center;
     color: black;
 }
 pl:hover {
     text-decoration: underline;
     font-size: 14px;
-    font-family: "Calibri", serif;
+    font-family: "Times New Roman", serif;
     text-align: center;
     color: black;
 }
@@ -34,14 +34,14 @@ pl:hover {
 a:link {
     text-decoration: none;
     font-size: 14px;
-    font-family: "Calibri", serif;
+    font-family: "Times New Roman", serif;
     text-align: left;
     color: black;
 }
 a:hover {
     text-decoration: underline;
     font-size: 14px;
-    font-family: "Calibri", serif;
+    font-family: "Times New Roman", serif;
     text-align: left;
     color: black;
 }
