@@ -23,14 +23,14 @@ hs {
     color: black;
 }
 
-pagelink {
+pl {
     font-size: 14px;
     font-family: "Times New Roman", serif;
     text-align: center;
     color: black;
 }
 
-altlink {
+al {
     font-size: 14px;
     font-family: "Times New Roman", serif;
     text-align: left;
@@ -38,7 +38,6 @@ altlink {
 }
 
 p {
-    color: whitesmoke;
     font-size: 14px;
     font-family: "Times New Roman", serif;
     text-align: center;
