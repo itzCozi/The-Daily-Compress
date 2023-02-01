@@ -63,12 +63,6 @@ The following are a list of things you can and can not do with the source code p
 Also, if you intend to use or alter the source code you should first read [Installation](https://github.com/itzCozi/The-Daily-Compress/blob/main/.github/HOW-TO:Install-Project.md) guide and ensure you have  
 filled all the requirements. And please read the files linked below and the branches section in this file. 
 
-**Read**:
-1. [Issue/Ticket Creation](https://github.com/itzCozi/The-Daily-Compress/blob/main/.github/HOW-TO:Create_Ticket.md)
-2. [Installation](https://github.com/itzCozi/The-Daily-Compress/blob/main/.github/HOW-TO:Install-Project.md)
-3. [License](https://github.com/itzCozi/The-Daily-Compress/blob/main/LICENSE)
-4. [Contributing](https://github.com/itzCozi/The-Daily-Compress/blob/main/.github/HOW-TO:Contribute.md)
-
 **You Can**: 
 * Copy code snippets of 50+ lines 
 * Run the program, Work on todo's 
