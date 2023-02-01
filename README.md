@@ -12,14 +12,6 @@ I dont recommend using any of these articles as trustworthy information and all 
 checked before use in any other media.
 
 Below is a graph representing how the daily article refresh happens.
-```mermaid
-  graph TD;
-    AI-->Article;
-    Workflow-->Deploy;
-    Deploy-->Website;
-    Website-->index.html;
-    index.html-->article.txt;
-  ```
 
 ## Topics
 Please feel free to email me or make pull requests to share topic ideas. I listed some topics below.
