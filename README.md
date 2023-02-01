@@ -18,7 +18,7 @@ Below is a graph representing how the daily article refresh happens.
     Workflow-->Deploy;
     Deploy-->Website;
     Website-->index.html;
-    index.html-->article.txt
+    index.html-->article.txt;
   ```
 
 ## Topics
