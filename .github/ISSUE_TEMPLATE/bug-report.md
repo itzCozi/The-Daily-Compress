@@ -4,7 +4,6 @@ about: Ran into some unexpected behaviour?
 title: ''  
 labels: 'Priority: medium, type: bug'  
 assignees: ''  
-
 ---
 
 **Metadata (please complete the following information)**  
