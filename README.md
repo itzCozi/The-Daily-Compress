@@ -1,7 +1,7 @@
 # The-Daily-Compress
 An AI driven article writer that writes everyday about a randomly chosen topic and is posted to [thedailycompress.com](https://itzcozi.github.io/The-Daily-Compress/)
 
-![Website article](.github/TDC.Home.Page.jpg "Website article")
+![Website article](.github/TDC.Home.jpg "Website article")
 
 
 ## Motivation
