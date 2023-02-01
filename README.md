@@ -20,7 +20,6 @@ Games realeasing in unfinished states
 Computer modern memory
 Big O Complexity rendered unnecessary
 AI moderation
-Bill gates and his relationship with jeffery epstein
 Ponzi scheme cryptocurrency
 What happened to vr
 The decline of the metaverse
@@ -30,8 +29,6 @@ How animales are affected by global warming
 Proprietary software and its effects on the world
 Open source software
 Half life 3 and why it will never come out
-The darkside of teslas
-Discord and its porn problem
 How VSCode effected the developers
 Tiktok and misinformation
 How music effects children at a young age
@@ -40,9 +37,7 @@ Legalizing marijuana
 The fall of object oriented programming
 The disfunctional US education system
 Parenting in the 21st century
-The AI revolution
 Half-Life and how its affected the gaming industry
-Potential dangours of modern living
 Lowering green gas emission
 Why you should swap to linux
 Reasons to stop using tiktok
@@ -58,6 +53,19 @@ Tab and create a new issue with the tag low-priority; expect an answer within 24
 [Website Source Code](https://github.com/itzCozi/The-Daily-Compress/tree/website)  
 [Issue/Ticket Creation](https://github.com/itzCozi/The-Daily-Compress/blob/main/.github/HOW-TO:Create_Ticket.md)  
 [Installation](https://github.com/itzCozi/The-Daily-Compress/blob/main/.github/HOW-TO:Install-Project.md)
+
+### Code Rights
+The following are a list of things you can and can not do with the source code provided in this repository.  
+Also, if you intend to use or alter the source code you should first read [Installation](https://github.com/itzCozi/The-Daily-Compress/blob/main/.github/HOW-TO:Install-Project.md) guide and ensure you have  
+filled all the requirements. And please read the LICENCES in the main branch and the branches section in this file. 
+
+**You Can**: 
+* Copy code snippets of 50+ lines 
+* Run the program, Work on todo's 
+* Debug, Edit and Refactor
+* Fork this [repository](.github/HOW-TO:Contribute.md)
+* Make a pull request
+* Submit a [issue](.github/HOW-TO:Create_Ticket.md) or [submit topics]()
 
 ## Contact me
 discord: BadDevoleper#4200                                                                                                 

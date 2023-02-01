@@ -1,0 +1,12 @@
+blank_issues_enabled: false
+contact_links:
+    - name: Bug Report
+      url: https://github.com/itzCozi/The-Daily-Compress/issues/new?assignees=&labels=Priority%3A+medium%2C+type%3A+bug&template=bug-report.md&title=
+      about: Please submit bug reports here.
+    - name: Topic Submission
+      url: https://github.com/itzCozi/The-Daily-Compress/issues/new?assignees=&labels=Priority%3A+medium%2C+Topic-submission&template=topic-submission.md&title=
+      about: Please submit new topics to be added.
+    - name: Question
+      url: https://github.com/itzCozi/The-Daily-Compress/issues/new?assignees=&labels=Priority%3A+medium%2C+Topic-submission&template=question.md&title=
+      about: Ask all questions here with this template.
+      
