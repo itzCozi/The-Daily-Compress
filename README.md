@@ -15,8 +15,10 @@ Below is a graph representing how the daily article refresh happens.
 ```mermaid
   graph TD;
     AI-->Article;
-    Article-->Deploy;
+    Workflow-->Deploy;
     Deploy-->Website;
+    Website-->index.html;
+    index.html-->article.txt
   ```
 
 ## Topics
