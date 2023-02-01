@@ -21,9 +21,7 @@ The fall of facebook
 Games realeasing in unfinished states
 Computer modern memory
 Big O Complexity rendered unnecessary
-AI moderation
 Ponzi scheme cryptocurrency
-What happened to vr
 The decline of the metaverse
 Crypto Scams
 The rise of AI
@@ -53,6 +51,7 @@ This repository and website are both under development and anyone who would like
 Since this AI and website are in development, it would be very helpful to report any bugs or problems with the issues
 Tab and create a new issue with the tag low-priority; expect an answer within 24 hours.
 
+[How to Contribute](.github/HOW-TO:Contribute.md)
 [Website Source Code](https://github.com/itzCozi/The-Daily-Compress/tree/website)  
 [Issue/Ticket Creation](https://github.com/itzCozi/The-Daily-Compress/blob/main/.github/HOW-TO:Create_Ticket.md)  
 [Installation](https://github.com/itzCozi/The-Daily-Compress/blob/main/.github/HOW-TO:Install-Project.md)
@@ -85,9 +84,9 @@ An explaination of the branches and which one to contribute to.
 This branch is great for those who want to work on the AI and its functions, but its not the best if you are  
 looking foreward to working on the website for that you need to head [here](https://github.com/itzCozi/The-Daily-Compress/tree/website). 
 
-**Website:** The website branch is made souly for the purpoes of deploying code to the webpage and for updating the article  
-using the AI. This branches code can be deployed to the website with github Actions this process can be automated   
-so the website's article can automaticly refresh daily. 
+**Website:** The website branch is made souly for the purpoes of deploying code to the webpage and for updating  
+the article using the AI. This branches code can be deployed to the website with github Actions this process can be  
+automated so the website's article can automaticly refresh daily. 
 
 
 ## Contact me
