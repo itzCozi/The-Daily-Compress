@@ -7,5 +7,5 @@ labels: 'Priority: medium, Topic-submission'
 
 ## List of topics
 * Cool guy walks down to store
-* How kumbucha is made
+* How Kombucha is made
 * Is santa clause real?
