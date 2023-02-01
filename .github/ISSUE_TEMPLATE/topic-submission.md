@@ -1,7 +1,7 @@
 ---
 name: Topic Submission
 title: ''  
-about: ''  
+about: 'Example topic submission'  
 labels: 'Priority: medium, Topic-submission'
 ---
 
