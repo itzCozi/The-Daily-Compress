@@ -2,6 +2,7 @@
 '''
 READ NOTES ON DESK FOR MORE INFO
 TODO: Add a way to automate the topic making process.
+TODO: Add a function to run the topic_generator.py if there are no topics
 TODO: Make a graph on front README demonstrating refresh process (https://github.com/ZeroMemoryEx/U-Boat/edit/master/README.md)
 TODO: Add log.html page where the logs.log is displayed in a iframe
 '''
